@@ -1,0 +1,16 @@
+qualquer 
+coisa
+nesse 
+arquivo, ate comecar
+um conflito
+<<<<<<<<<<
+contedo da HEAD
+mais conteudo da head
+==========
+conteudo da main
+>>>>>>>>>>
+continua o
+conteudo do arquivo 
+sem conflitos
+
+banana

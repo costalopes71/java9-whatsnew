@@ -1,0 +1,14 @@
+Java 9 possui um REPL (repeat, eval, print, loop) que eh o jshell
+
+Para usa-lo basta digitar no terminal:
+$ jshell
+
+jshell <classe_java>  : abre o jshell e carrega a classe java
+jshell --class-path <jar> : abre o jshell e carrega todo o conteudo do classpath
+
+/save myJshellScript.jsh : salva tudo o que criei no jshell para um arquivo e quando eu quiser usar de novo bastar usar o comando open
+/exit ou CTR + D : sai do jshell
+
+/methods : exibe os metodos que criei
+/types : exibe as classes que criei
+/vars : exibe todas variaveis criadas
