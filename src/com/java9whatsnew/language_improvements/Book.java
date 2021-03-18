@@ -19,8 +19,19 @@ public class Book {
 		return new Book("Banana de Pijamas", Set.of("B1", "B2"), 20.50);	
 	}
 	
+	public static Book getBook(String title, String author, double price) {
+		return new Book(title, Set.of(author), price);	
+	}
+	
 	public static Stream<Book> getBooks() {
 		return Stream.of(getBook(), getBook());
+	}
+	
+	public static Stream<Book> getDiferentBooks() {
+		return Stream.of(getBook(), 
+				getBook("Livro 1", "Joao", 10.0),
+				getBook("Livro 2", "Paulo", 9.0),
+				getBook("Livro 3", "Ricardo", 20.50));
 	}
 	
 	public String getTitle() {
