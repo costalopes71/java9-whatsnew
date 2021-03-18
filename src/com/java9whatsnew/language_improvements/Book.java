@@ -46,4 +46,9 @@ public class Book {
 		return price;
 	}
 
+	@Override
+	public String toString() {
+		return "[Book: " + title + ", author: " + authors + ", price: " + price + "]";
+	}
+	
 }
